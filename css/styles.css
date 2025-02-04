@@ -582,8 +582,28 @@ video {
   left: 0px;
 }
 
+.bottom-\[66px\] {
+  bottom: 66px;
+}
+
+.right-\[11px\] {
+  right: 11px;
+}
+
+.bottom-16 {
+  bottom: 4rem;
+}
+
+.right-3 {
+  right: 0.75rem;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.z-\[10000\] {
+  z-index: 10000;
 }
 
 .my-2 {
@@ -616,6 +636,10 @@ video {
   height: 0.625rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -640,6 +664,10 @@ video {
   width: 100%;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .max-w-64 {
   max-width: 16rem;
 }
@@ -662,6 +690,10 @@ video {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -798,4 +830,10 @@ video {
 .text-text-secondary-color {
   --tw-text-opacity: 1;
   color: rgb(104 118 132 / var(--tw-text-opacity, 1));
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
